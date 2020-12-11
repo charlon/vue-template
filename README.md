@@ -1,6 +1,10 @@
 # vue-vite-app
 Vue + Vite app template
 
+* Vue 3
+* Vite
+* TailwindCSS
+
 ## Getting Started
 
 > Note to Vue users: Vite currently only works with Vue 3.x. This also means you can't use libraries that are not yet compatible with Vue 3.
