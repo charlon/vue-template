@@ -13,9 +13,18 @@ Make sure you have [node.js](https://nodejs.org/en/) installed on your machine b
 
 Click the Use this template button and clone the repository.
 
-```bash
+```
 $ git clone <project-name>
 $ cd <project-name>
 $ npm install
+
+```
+### Compiles and hot-reloads for development
+```
 $ npm run dev
+```
+
+### Compiles and minifies for production
+```
+$ npm run build
 ```
