@@ -4,6 +4,7 @@ Vue + Vite app template
 * Vue 3
 * Vite
 * TailwindCSS
+* Bootstrap 4
 
 ## Getting Started
 
