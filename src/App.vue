@@ -1,5 +1,5 @@
 <template>
-  <header class="border-solid border-4 border-light-blue p-12 text-center">
+  <header class="bg-light text-center">
     <img alt="Vue logo" src="./assets/logo.png" class="inline" />
     <HelloWorld msg="Hello Vue 3.0 + Vite" />
     <nav>
@@ -10,7 +10,7 @@
   <main class="p-12">
     <router-view />
   </main>
-  <footer class="border-solid border-4 border-light-blue p-6 text-center">
+  <footer class="bg-secondary text-center">
     this is the footer
   </footer>
 </template>
