@@ -3,8 +3,7 @@ Vue + Vite app template
 
 * Vue 3
 * Vite 2
-* TailwindCSS
-* Bootstrap 4
+* TailwindCSS 3
 
 ## Getting Started
 
