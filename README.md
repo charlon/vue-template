@@ -50,3 +50,17 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://vitejs.dev/guide/static-deploy.html) for more information.
+
+## Testing & Linting
+
+Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```bash
+npm run test:unit
+```
+
+Lint with [ESLint](https://eslint.org/)
+
+```bash
+npm run lint
+```
