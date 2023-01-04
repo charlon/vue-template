@@ -1,7 +1,7 @@
 <template>
   <header class="bg-light text-center">
     <img alt="Vue logo" src="./assets/logo.png" class="inline" />
-    <HelloWorld msg="Hello Vue 3.0 + Vite" />
+    <HelloWorld msg="Hello Vue 3.0 + Vite 4.0" />
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>

@@ -1,30 +1,52 @@
-# vue-vite-app
+# vue-template
 Vue + Vite app template
 
 * Vue 3
-* Vite 2
-* TailwindCSS 3
+* Vite 4
+* WindiCss 3
 
-## Getting Started
+## Setup
 
-> Note to Vue users: Vite currently only works with Vue 3.x. This also means you can't use libraries that are not yet compatible with Vue 3.
+Make sure to install the dependencies:
 
-Make sure you have [node.js](https://nodejs.org/en/) installed on your machine before proceeding.
+```bash
+# yarn
+yarn install
 
-Click the Use this template button and clone the repository.
+# npm
+npm install
 
-```
-$ git clone <project-name>
-$ cd <project-name>
-$ npm install
-
-```
-### Compiles and hot-reloads for development
-```
-$ npm run dev
+# pnpm
+pnpm install
 ```
 
-### Compiles and minifies for production
+## Development Server
+
+Start the development server on http://localhost:5173
+
+```bash
+# yarn
+yarn dev
+
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
 ```
-$ npm run build
+
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
 ```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Check out the [deployment documentation](https://vitejs.dev/guide/static-deploy.html) for more information.
