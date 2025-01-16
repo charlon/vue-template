@@ -1,3 +1,3 @@
 {
-    "stylelint.validate": ["vue", "scss"]
-  }
+  "stylelint.validate": ["vue", "scss"]
+}

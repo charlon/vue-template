@@ -1,8 +1,11 @@
 import { createApp } from 'vue'
 import App from './app.vue'
-import router from './router' 
+import router from './router'
 
-// windicss
-import 'virtual:windi.css'
+const app = createApp(App);
+app.config.productionTip = false;
 
-createApp(App).use(router).mount('#app')
+// vue-router
+app.use(router);
+
+app.mount("#app");
